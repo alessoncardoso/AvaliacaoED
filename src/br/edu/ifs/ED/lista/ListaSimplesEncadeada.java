@@ -127,7 +127,7 @@ public class ListaSimplesEncadeada<T extends Comparable<T>> extends Lista<T> {
 //        return elementos;
 //    }
 //
-//    public void imprimirVetorRecursivo(T[] elementos, int posicao) {
+//    private void imprimirVetorRecursivo(T[] elementos, int posicao) {
 //        if (posicao == tamanho) {
 //            return;
 //        }
@@ -147,7 +147,7 @@ public class ListaSimplesEncadeada<T extends Comparable<T>> extends Lista<T> {
         return elementos;
     }
 
-    public void imprimirVetorRecursivo(No<T> atual, T[] elementos, int posicao) {
+    private void imprimirVetorRecursivo(No<T> atual, T[] elementos, int posicao) {
         if (posicao == tamanho) {
             return;
         }
