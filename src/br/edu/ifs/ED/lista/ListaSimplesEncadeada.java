@@ -167,7 +167,7 @@ public class ListaSimplesEncadeada<T extends Comparable<T>> extends Lista<T> {
         No<T> atual = inicio;
         builder.append("[");
 
-        for (int i = 0; i < this.tamanho - 1; i++) {
+        for (int i = 0; i < this.tamanho-1; i++) {
             builder.append(atual.dado).append(", ");
             atual = atual.prox;
         }
